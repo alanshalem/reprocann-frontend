@@ -5,7 +5,6 @@ const Hero = () => {
 			<div className="flex flex-col text-center md:w-2/3 mx-auto my-10">
 				<span className="font-bold text-xl text-slate-300">Hola,</span>
 				<h1 className="font-black text-white text-5xl">
-					{' '}
 					Hace click en el boton para comenzar a tramitar tu{' '}
 					<span className="text-sky-300 text-opacity-80">
 						REP
