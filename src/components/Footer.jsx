@@ -13,23 +13,20 @@ const Footer = () => {
 					</div>
 					<div className="flex items-center">
 						<Link
-							to="https://www.linkedin.com/in/alanshalem/"
+							to="//www.linkedin.com/in/alanshalem/"
 							className="p-3"
 						>
 							<FaLinkedin color="#0e76a8" size={30} />
 						</Link>
-						<Link
-							to="https://github.com/alanshalem"
-							className="p-3"
-						>
+						<Link to="//github.com/alanshalem" className="p-3">
 							<FaGithub color="#670067" size={30} />
 						</Link>
 						<a href="mailto: alanshalem@gmail.com" className="p-3">
 							<FiMail color="white" size={30} />
 						</a>
-						<Link to="/medico-reprocann-2022" className="p-3">
+						{/* <Link to="/medico-reprocann-2022" className="p-3">
 							M
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 			</div>
