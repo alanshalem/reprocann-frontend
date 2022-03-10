@@ -27,6 +27,9 @@ const Footer = () => {
 						<a href="mailto: alanshalem@gmail.com" className="p-3">
 							<FiMail color="white" size={30} />
 						</a>
+						<Link to="/medico-reprocann-2022" className="p-3">
+							M
+						</Link>
 					</div>
 				</div>
 			</div>
