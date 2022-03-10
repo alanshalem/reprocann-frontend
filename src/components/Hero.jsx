@@ -9,7 +9,7 @@ const Hero = () => {
 					<span className="text-sky-300 text-opacity-80">
 						REP
 						<span className="text-white text-opacity-80">ROC</span>
-						CAN
+						ANN
 					</span>
 				</h1>
 			</div>
