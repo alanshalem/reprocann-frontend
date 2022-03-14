@@ -14,11 +14,11 @@ const Hero = () => {
 				</h1>
 			</div>
 			<div className="flex justify-center align-middle">
-				<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold uppercase text py-2 px-4 rounded">
-					<Link to="/nuevo-paciente">
+				<Link to="/nuevo-paciente">
+					<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold uppercase text py-2 px-4 rounded">
 						<span>¡Haz click aqui!</span>
-					</Link>
-				</button>
+					</button>
+				</Link>
 			</div>
 		</>
 	);
