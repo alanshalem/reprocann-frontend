@@ -1,6 +1,7 @@
 import pdf from '@react-pdf/renderer';
 import React from 'react';
 import FirmaDoctor from '../public/img/white-firma_doctor.png';
+import FirmaPaciente from '../public/img/white-firma_paciente.png';
 const { Document, Text, View, Page, Image } = pdf;
 
 const DocuPDF = ({ paciente }) => {
@@ -160,39 +161,73 @@ const DocuPDF = ({ paciente }) => {
 									<View
 										style={{
 											display: 'flex',
+											flexDirection: 'row',
+											justifyContent: 'center',
+											paddingHorizontal: 20,
 										}}
 									>
-										<Image
-											src={FirmaDoctor}
-											alt="firma"
-											style={{
-												width: '70px',
-												height: '70px',
-												margin: 'auto',
-											}}
-										/>
+										<View>
+											<Image
+												src={FirmaDoctor}
+												alt="firma"
+												style={{
+													width: '70px',
+													height: '70px',
+													margin: 'auto',
+												}}
+											/>
 
-										<Text
-											style={{
-												fontSize: 12,
-												textAlign: 'center',
-												fontWeight: 'bold',
-											}}
-										>{`Leonardo E. Martino `}</Text>
-										<Text
-											style={{
-												fontSize: 12,
-												textAlign: 'center',
-												fontWeight: 'bold',
-											}}
-										>{`Traumatólogo `}</Text>
-										<Text
-											style={{
-												fontSize: 12,
-												textAlign: 'center',
-												fontWeight: 'bold',
-											}}
-										>{`Mp. 21279 Reg.Esp 40/0621 `}</Text>
+											<Text
+												style={{
+													fontSize: 12,
+													textAlign: 'center',
+													fontWeight: 'bold',
+													margin: 'auto',
+												}}
+											>{`Leonardo E. Martino `}</Text>
+											<Text
+												style={{
+													fontSize: 12,
+													textAlign: 'center',
+													fontWeight: 'bold',
+													margin: 'auto',
+												}}
+											>{`Traumatólogo `}</Text>
+											<Text
+												style={{
+													fontSize: 12,
+													textAlign: 'center',
+													fontWeight: 'bold',
+													margin: 'auto',
+												}}
+											>{`Mp. 21279 Reg.Esp 40/0621 `}</Text>
+										</View>
+										<View>
+											<Image
+												src={FirmaPaciente}
+												alt="firma"
+												style={{
+													width: '70px',
+													height: '70px',
+													margin: 'auto',
+												}}
+											/>
+											<Text
+												style={{
+													fontSize: 12,
+													textAlign: 'center',
+													fontWeight: 'bold',
+												}}
+											>{`________________ `}</Text>
+											<Text
+												style={{
+													fontSize: 12,
+													textAlign: 'center',
+													fontWeight: 'bold',
+													margin: 'auto',
+												}}
+											>{`FIRMA AQUI `}</Text>
+										</View>
 									</View>
 								</View>
 							</View>

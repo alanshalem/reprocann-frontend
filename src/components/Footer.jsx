@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ const Footer = () => {
 						Hecho con ❤️ en Argentina
 					</div>
 					<div className="flex items-center">
-						<Link
+						{/* <Link
 							to="//www.linkedin.com/in/alanshalem/"
 							className="p-3"
 						>
@@ -23,7 +23,25 @@ const Footer = () => {
 						</Link>
 						<a href="mailto: alanshalem@gmail.com" className="p-3">
 							<FiMail color="white" size={30} />
+						</a> */}
+						<a
+							target="_blank"
+							href="//www.instagram.com/naturabis.cbd/?hl=es"
+							className="p-3 hover: cursor-pointer"
+						>
+							<FaInstagram color="#E1306C" size={30} />
 						</a>
+						<a
+							target="_blank"
+							href="//wa.me/message/MSCOPJPOAQFRE1"
+							className="p-3 hover: cursor-pointer"
+						>
+							<FaWhatsapp color="#25D366" size={30} />
+						</a>
+						{/* <a href="mailto: alanshalem@gmail.com" className="p-3">
+							<FiMail color="white" size={30} />
+						</a> */}
+
 						{/* <Link to="/medico-reprocann-2022" className="p-3">
 							M
 						</Link> */}
