@@ -13,6 +13,7 @@ const Consentimiento = ({ paciente }) => {
 		provincia,
 		codigoVinculacion,
 		patologiaInformada,
+		motivoConsentimiento,
 	} = paciente;
 
 	const monthNames = [
@@ -43,7 +44,7 @@ const Consentimiento = ({ paciente }) => {
 						<p className="m-8">
 							{`PRIMERO: El PROFESIONAL luego de la evaluación del paciente informa que este: `}
 						</p>
-						<p className="m-8">{`${patologiaInformada}`}</p>
+						<p className="m-8">{`${motivoConsentimiento}`}</p>
 						<p className="m-8">
 							{`SEGUNDO: EL PROFESIONAL propone para el tratamiento de la patología detallada en el artículo primero realizar el siguiente tratamiento: Abordar su patología con el consumo de aceite de cannabis de elaboración casera, el cual deberá preparar macerando 100 g de flores secas en un litro de alcohol, durante 2 a 5 minutos para luego filtrar el resultante y dejar evaporar el alcohol a baño maría, hasta eliminarlo por completo, luego diluir lo obtenido en 100 ml de aceite de coco u oliva. Consumiendo 2 gotas cada 8 hs y sos en las crisis.`}
 						</p>

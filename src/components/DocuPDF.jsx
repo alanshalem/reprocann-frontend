@@ -12,6 +12,7 @@ const DocuPDF = ({ paciente }) => {
 		provincia,
 		codigoVinculacion,
 		patologiaInformada,
+		motivoConsentimiento,
 	} = paciente;
 
 	const monthNames = [
@@ -80,7 +81,7 @@ const DocuPDF = ({ paciente }) => {
 										marginLeft: 20,
 										marginRight: 20,
 									}}
-								>{`${patologiaInformada}`}</Text>
+								>{`${motivoConsentimiento}`}</Text>
 								<Text
 									style={{
 										fontSize: 12,

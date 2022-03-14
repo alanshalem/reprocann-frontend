@@ -195,7 +195,8 @@ const Formulario = () => {
 										className="block text-white text-sm font-bold  m-2 uppercase"
 										htmlFor="patologiaInformada"
 									>
-										Patologia Informada:
+										Describe brevemente tu patologia y los
+										medicamentos que consumes:
 									</label>
 									<Field
 										id="patologiaInformada"
